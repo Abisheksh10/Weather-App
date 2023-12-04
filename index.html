@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div id="weather-container">
+      <button onclick="getLocation()">Get Weather for My Location</button>
+      <div id="location">
+        <label for="locationInput">Enter Location:</label>
+        <input type="text" id="locationInput" placeholder="Enter city, country" />
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+      <div id="weather-info"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
